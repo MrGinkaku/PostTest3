@@ -1,0 +1,112 @@
+/* CSS STYLE KITA */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #b3dfff;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: #333;
+    margin-left: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+.content ul {
+    list-style-type: none; /* Menghapus tanda bullet dari list */
+    max-width: 100%;
+    padding: 0;
+    display: flex; /* Menjadikan list horizontal */
+    flex-wrap: wrap; /* Mengizinkan list wrap ke bawah saat layar lebih kecil */
+    justify-content: flex-end; /* Menyusun list ke kanan */
+}
+.content{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    align-items: center;
+    margin: 10px; /* Memberi jarak antara list */
+    flex: 0 1 calc(33.33% - 20px); /* Mengatur lebar list ke 33.33% dengan jarak 20px di antara list */
+}
+.content img{
+    margin-right: 100px;
+}
+.content ul li img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.content ul li img:last-child {
+    margin-right: 0; /* Menghapus margin kanan gambar terakhir */
+}
+
+img {
+	width: 300px;
+	height: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.radio {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: auto;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    background-color: white;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    font-size: 12px;
+}
